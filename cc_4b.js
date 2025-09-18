@@ -37,3 +37,12 @@ product.promoPrice = promoPrice;
 console.log(products);
 
 // Step 4
+
+const customerType = ["regular", "student", "senior"];
+if (customerType === "senior") {
+    orderTotal = cartTotal * .07
+    console.log(`Thank you! A 7% discount has been applied: ${orderTotal}`)
+} else {
+    orderTotal = cartTotal
+    console.log(`Thank you! Your total is: ${orderTotal}`)
+};
